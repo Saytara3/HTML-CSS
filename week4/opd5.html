@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Attribute Selectors</title>
+  <style>
+    article {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    article a {
+      display: block;
+      padding: 2%;
+      margin: 1%;
+    }
+
+    a[title] {
+      border: 5px solid pink;
+    }
+
+    a[href*="contact"] {
+      border: 5px solid orange;
+    }
+
+    a[href^="https"] {
+      border: 5px solid green;
+    }
+  </style>
+</head>
+<body>
+
+<article>
+  <a href="https://example.com">Link 1</a>
+  <a href="http://example.com" title="Visit example.com">Link 2</a>
+  <a href="/contact">Link 3</a>
+  <a href="../contact/index.html">Link 4</a>
+</article>
+
+</body>
+</html>
