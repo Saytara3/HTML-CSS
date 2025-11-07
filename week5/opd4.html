@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model - Border Radius Oefening</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        div {
+            margin-bottom: 5px;
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+
+        .b1 {
+            border: 5px solid black;
+        }
+
+        .b2 {
+            border: 5px solid black;
+            border-radius: 20px;
+        }
+
+        .b3 {
+            border: 5px solid black;
+            border-radius: 50%;
+        }
+
+        .b4 {
+            border: 5px solid black;
+            border-radius: 0;
+        }
+
+        .b5 {
+            border: 5px solid black;
+            border-radius: 0 0 50% 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="b1"></div>
+    <div class="b2"></div>
+    <div class="b3"></div>
+    <div class="b4"></div>
+    <div class="b5"></div>
+</body>
+</html>
