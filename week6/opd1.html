@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mijn CD Top 5</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .cd-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+    }
+    .cd {
+      background-color: #222;
+      border: 1px solid #444;
+      border-radius: 8px;
+      padding: 10px;
+      text-align: center;
+      width: 200px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.1);
+    }
+    .cd img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 5px;
+      background-color: #333;
+    }
+    .cd a {
+      display: inline-flex;
+      align-items: center;
+      margin-top: 10px;
+      color: #1db954;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .cd a img {
+      width: 16px;
+      height: 16px;
+      margin-left: 5px;
+    }
+    h1 {
+      position: absolute;
+      top: 20px;
+      width: 100%;
+      font-size: 2em;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎵 Mijn CD Top 5 🎵</h1>
+  <div class="cd-container">
+    <!-- CD 1 -->
+    <div class="cd">
+      <img src="https://m.media-amazon.com/images/I/71JcMFd00PL._UF1000,1000_QL80_.jpg" alt="Ed Sheeran - Divide">
+      <a href="https://www.edsheeran.com/" target="_blank">Ed Sheeran <img src="https://cdn-icons-png.flaticon.com/512/25/25284.png" alt="link icoon"></a>
+    </div>
+    <!-- CD 2 -->
+    <div class="cd">
+      <img src="https://m.media-amazon.com/images/I/71bEoagp4TL._UF1000,1000_QL80_.jpg" alt="Bruno Mars - Doo-Wops & Hooligans">
+      <a href="https://www.brunomars.com/" target="_blank">Bruno Mars <img src="https://cdn-icons-png.flaticon.com/512/25/25284.png" alt="link icoon"></a>
+    </div>
+    <!-- CD 3 -->
+    <div class="cd">
+      <img src="https://upload.wikimedia.org/wikipedia/en/1/1b/Adele_-_21.png" alt="Adele - 21">
+      <a href="https://www.adele.com/" target="_blank">Adele <img src="https://cdn-icons-png.flaticon.com/512/25/25284.png" alt="link icoon"></a>
+    </div>
+    <!-- CD 4 -->
+    <div class="cd">
+      <img src="https://upload.wikimedia.org/wikipedia/en/f/f6/Taylor_Swift_-_1989.png" alt="Taylor Swift - 1989">
+      <a href="https://www.taylorswift.com/" target="_blank">Taylor Swift <img src="https://cdn-icons-png.flaticon.com/512/25/25284.png" alt="link icoon"></a>
+    </div>
+    <!-- CD 5 -->
+    <div class="cd">
+      <img src="https://m.media-amazon.com/images/I/71yF+kt+4cL._UF1000,1000_QL80_.jpg" alt="The Weeknd - After Hours">
+      <a href="https://www.theweeknd.com/" target="_blank">The Weeknd <img src="https://cdn-icons-png.flaticon.com/512/25/25284.png" alt="link icoon"></a>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
